@@ -1,0 +1,39 @@
+label {
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+    text-align: left;
+}
+
+input[type=text], input[type=password]{
+    display: inline-block;
+    width: 200px;
+}
+
+input[type=radio] {
+    margin-left: 45px;
+}
+
+span {
+    display: inline-block;
+    width: 200px;
+    margin: 5px;
+    text-align: left;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+body {
+    background-color: plum;
+}
+
+.images{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}

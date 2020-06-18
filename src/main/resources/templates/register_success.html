@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+    <title>Registration Success</title>
+</head>
+
+<body>
+    <div align="center">
+        <h1>Registration Succeeded! </h1>
+
+        <span>Full name: </span>
+        <span th:text="${user.name}"></span>
+        <br />
+
+        <span>E-mail: </span>
+        <span th:text="${user.email}"></span>
+        <br />
+
+        <span>Password: </span>
+        <span th:text="${user.password}"></span>
+        <br />
+
+        <span>Gender:</span>
+        <span th:text="${user.gender}">
+        </span>
+        <br />
+
+        <span>Note: </span>
+        <span th:text="${user.note}"></span>
+        <br />
+    </div>
+
+    <div>
+        <img src="chair.jpg" class="images" alt="Picture of Jace">
+    </div>
+
+</body>
+
+</html>
